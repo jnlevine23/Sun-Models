@@ -9,3 +9,4 @@ By gathering additional data on utility rates across the country and annual ener
 
 I then wanted to include some kind of metric for "scoring" the impact of having a solar energy system on your roof, so I turned to Google's Project Sunroof and scraped data regarding the potential environmental impact of installing solar panels. This data allows us to see the amount of Carbon Dioxide emissions avoided, the equivalent number of cars taken off the road for 1 year, and the equivalent number of new trees grown over a 10 year period for a particular zip code if all viable roofs were to have solar panels installed on them. 
 
+_Full presentation can be viewed [here](https://github.com/jnlevine23/Sun-Models/blob/master/presentation.pdf)._
