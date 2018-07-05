@@ -1,0 +1,132 @@
+<div class="CDB-infowindow CDB-infowindow--light js-infowindow" data-cover="true">
+  <div class="CDB-infowindow-close js-close"></div>
+  <div class="CDB-infowindow-container">
+    <div class="CDB-infowindow-header CDB-infowindow-headerMedia js-header js-cover" style="width:100%; height:100%:>    
+      <div class="CDB-infowindow-mediaTitle" style="width:97%; height:100%;>
+        <h4 class="CDB-infowindow-title">
+          <span> <img src="https://maps.googleapis.com/maps/api/streetview?size=600x300&location={{latitude}},{{longitude}}&heading=170.78&pitch=-0.76&key=AIzaSyAKqB19dS32ZqQhN25jvYSZQRo9uN8YWkI">
+</span>
+        </h4>
+      </div>
+    </div>
+    <div class="CDB-infowindow-inner js-inner">  
+      <div class="CDB-infowindow-list js-content">
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order1">
+          <h5 class="CDB-infowindow-subtitle">Longitude</h5>
+          <h4 class="CDB-infowindow-title">{{longitude}}</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order2">
+          <h5 class="CDB-infowindow-subtitle">State</h5>
+          <h4 class="CDB-infowindow-title">{{state}}</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order3">
+          <h5 class="CDB-infowindow-subtitle">County</h5>
+          <h4 class="CDB-infowindow-title">{{county}}</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order4">
+          <h5 class="CDB-infowindow-subtitle">zipcode</h5>
+          <h4 class="CDB-infowindow-title">{{zipcode}}</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order5">
+          <h5 class="CDB-infowindow-subtitle">Median Cost of Installation</h5>
+          <h4 class="CDB-infowindow-title">${{predicted}}</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order6">
+          <h5 class="CDB-infowindow-subtitle">Median Size of System</h5>
+          <h4 class="CDB-infowindow-title">{{size_system_median_kw}} kW</h4>
+        </div>
+       <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order15">
+          <h5 class="CDB-infowindow-subtitle">Existing Solar Installations</h5>
+          <h4 class="CDB-infowindow-title">{{existing_solars}} Installations</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order7">
+
+<p> Return on Investment Information:</p>
+<br>
+          <h5 class="CDB-infowindow-subtitle">Residential Utility Rate</h5>
+          <h4 class="CDB-infowindow-title">{{res_rate}} $/kWh</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order8">
+          <h5 class="CDB-infowindow-subtitle">Avg Annual Electric Bill - No Solar</h5>
+          <h4 class="CDB-infowindow-title">${{yearly_electric_bill_no_solar}}</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order9">
+          <h5 class="CDB-infowindow-subtitle">Annual Solar Energy Value</h5>
+          <h4 class="CDB-infowindow-title">${{annual_energy_value_res}}</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order10">
+          <h5 class="CDB-infowindow-subtitle">Expected Savings - 25 Years</h5>
+          <h4 class="CDB-infowindow-title">${{savings_25_years}}</h4>
+        </div>
+   <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order13">
+          <h5 class="CDB-infowindow-subtitle">Payback Period</h5>
+          <h4 class="CDB-infowindow-title">{{residential_payback_time}} Years</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order11">
+<p> Energy Consumption Information: </p>
+<br>
+          <h5 class="CDB-infowindow-subtitle">Avg Annual Energy Consumption - No Solar</h5>
+          <h4 class="CDB-infowindow-title">{{avg_annual_consumption_res}} kWh</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order12">
+          <h5 class="CDB-infowindow-subtitle">Expected Annual Solar Energy Production</h5>
+          <h4 class="CDB-infowindow-title">{{expected_annual_pv_prod_median}} kWh</h4>
+        </div>
+  <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order14">
+          <h5 class="CDB-infowindow-subtitle">Median Annual Sun  Exposure of Panels</h5>
+          <h4 class="CDB-infowindow-title">{{median_solar_insolation}} kWh/m<sup>2</sup></h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order18">
+<p>Potential Environmental Impact - if all viable solar installations were implemented in zip code {{zipcode}}: </p> 
+<br>
+</br>
+
+<h5 class="CDB-infowindow-subtitle">Avoided CO<sub>2</sub> Emissions
+</h5>
+          <h4 class="CDB-infowindow-title">{{avoided_co2}} Metric Tons</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order19">
+          <h5 class="CDB-infowindow-subtitle">Cars Taken Off Road (1 Year Period)</h5>
+          <h4 class="CDB-infowindow-title">{{cars}}</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order20">
+          <h5 class="CDB-infowindow-subtitle">Tree Seedlings Grown (10 Year Period)</h5>
+          <h4 class="CDB-infowindow-title">{{trees}}</h4>
+        </div>
+      <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order16">
+<p>Roofing and Housing Information:</p>
+<br>
+          <h5 class="CDB-infowindow-subtitle">Percentage Of Viable Solar Roofs</h5>
+          <h4 class="CDB-infowindow-title">{{viable_solar_roofs}}</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order17">
+          <h5 class="CDB-infowindow-subtitle">Number of Viable Solar Roofs</h5>
+          <h4 class="CDB-infowindow-title">{{total_viable_roofs}}</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order21">
+          <h5 class="CDB-infowindow-subtitle">Median SQ FT per Roof</h5>
+          <h4 class="CDB-infowindow-title">{{roof_space_per_roof}} sq ft</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order22">
+          <h5 class="CDB-infowindow-subtitle">Total Roof Space (Sq Ft)</h5>
+          <h4 class="CDB-infowindow-title">{{total_sq_foot_roof}} sq ft</h4>
+        </div>
+        <div class="CDB-infowindow-listItem CDB-infowindow-listItem--order23">
+
+<p> Tax and Incentive Options for Residential and Commercial Buildings:</p>
+<br>
+
+          <h5 class="CDB-infowindow-subtitle">Available Solar Incentives</h5>
+          <h4 class="CDB-infowindow-title">{{solar_incentives}}</h4>
+        </div>
+      </div>
+    </div>
+    <div class="CDB-hook">
+      <div class="CDB-hook-inner"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
