@@ -13,7 +13,7 @@ I then wanted to include some kind of metric for "scoring" the impact of having 
 
 Using CartoDB, I created an interactive platform that allows the user to explore information about the zip codes I gathered on a map of the United States. The user can click or search for specific areas of the U.S. and see the median cost of a solar energy system installation in their respective area along with the full expected RoI results, potential environmental impact, and more. I hope that this tool can give individuals interested in going solar a high level overview of what to expect in their area, and allow vendors to see areas of the U.S. with high potential for solar growth.
 
-_Explore the [Sun Models Platform](https://jnlevine23.carto.com/builder/1baadc68-df69-4360-8cd3-3d04e5b9fefd/embed)._
-_ToDo: Embed platform in blog post for accesibility purposes._
+_Explore the [Sun Models Platform](https://jnlevine23.carto.com/builder/1baadc68-df69-4360-8cd3-3d04e5b9fefd/embed)._   
+_To Do: Embed platform in blog post for accesibility purposes._
 
 _Full presentation can be viewed [here](https://github.com/jnlevine23/Sun-Models/blob/master/presentation.pdf)._
