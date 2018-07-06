@@ -1,8 +1,10 @@
 # Sun-Models
 Predicting the median cost of a solar panel system installation across the U.S. on a zip code basis. Analyzing the expected RoI of the installations and potential environmental impact.
 
+
 ![Sun Models](https://github.com/jnlevine23/Sun-Models/blob/master/Img/platform_sun_models.png?raw=true "Sun Models")
 *Each point represents a unique zip code.*
+
 
 Sun Models is the final project I worked on while at Metis. It's a project I was excited to start working on because I was curious about how I could apply some of the data science concepts I learned to a problem within the renewable energy industry.
 
