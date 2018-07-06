@@ -1,6 +1,8 @@
 # Sun-Models
 Predicting the median cost of a solar panel system installation across the U.S. on a zip code basis. Analyzing the expected RoI of the installations and potential environmental impact.
 
+![Sun Models](https://github.com/jnlevine23/Sun-Models/blob/master/Img/platform_sun_models.png?raw=true "Sun Models")
+
 Sun Models is the final project I worked on while at Metis. It's a project I was excited to start working on because I was curious about how I could apply some of the data science concepts I learned to a problem within the renewable energy industry.
 
 _**Disclaimer**: All estimates I've provided are pre tax and pre solar incentive. All estimates are also adjusted for inflation. With tax options and solar incentives applied, the cost of a solar panel installation can decrease by up to 50% in certain areas of the U.S. and payback period can potentially be cut in half._
