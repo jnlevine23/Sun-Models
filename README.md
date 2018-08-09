@@ -24,3 +24,6 @@ _Full presentation can be viewed [here](https://github.com/jnlevine23/Sun-Models
 
 ![Orange County](https://github.com/jnlevine23/Sun-Models/blob/master/Img/orange_county_Sun_models.png?raw=true "Orange County")
 *Orange County, CA*
+
+![Northeast](https://github.com/jnlevine23/Sun-Models/blob/master/Img/northeast_sun_models.png?raw=true "North East")
+*Overview of Northeastern U.S.*
