@@ -21,3 +21,6 @@ Using CartoDB, I created an interactive platform that allows the user to explore
 _**Explore the [Sun Models](https://jnlevine23.carto.com/builder/1baadc68-df69-4360-8cd3-3d04e5b9fefd/embed) platform.**_
 
 _Full presentation can be viewed [here](https://github.com/jnlevine23/Sun-Models/blob/master/presentation.pdf)._
+
+![Orange County](https://github.com/jnlevine23/Sun-Models/blob/master/Img/orange_county_Sun_models.png?raw=true "Orange County")
+*Orange County, CA*
