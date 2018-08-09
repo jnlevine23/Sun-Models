@@ -1,5 +1,10 @@
 # Sun-Models
-Predicting the median cost of a solar panel system installation across the U.S. on a zip code basis. Analyzing the expected RoI of the installations and potential environmental impact.
+Predicting the median cost of a solar panel system installation across the U.S. on a zip code basis. Analyzing the expected ROI of the installations and potential environmental impact.    
+
+
+![Sun Models](https://github.com/jnlevine23/Sun-Models/blob/master/Img/platform_sun_models.png?raw=true "Sun Models")
+*Each point represents a unique zip code.*    
+
 
 Sun Models is the final project I worked on while at Metis. It's a project I was excited to start working on because I was curious about how I could apply some of the data science concepts I learned to a problem within the renewable energy industry.
 
@@ -11,9 +16,8 @@ By gathering additional data on utility rates across the country and annual ener
 
 I then wanted to include some kind of metric for "scoring" the impact of having a solar energy system on your roof, so I turned to Google's Project Sunroof and scraped data regarding the potential environmental impact of installing solar panels. This data allows us to see the amount of Carbon Dioxide emissions avoided, the equivalent number of cars taken off the road for 1 year, and the equivalent number of new trees grown over a 10 year period for a particular zip code if all viable roofs were to have solar panels installed on them. 
 
-Using CartoDB, I created an interactive platform that allows the user to explore information about the zip codes I gathered on a map of the United States. The user can click or search for specific areas of the U.S. and see the median cost of a solar energy system installation in their respective area along with the full expected RoI results, potential environmental impact, and more. I hope that this tool can give individuals interested in going solar a high level overview of what to expect in their area, and allow vendors to see areas of the U.S. with high potential for solar growth.
+Using CartoDB, I created an interactive platform that allows the user to explore information about the zip codes I gathered on a map of the United States. The user can click or search for specific areas of the U.S. and see the median cost of a solar energy system installation in their respective area along with the full expected ROI results, potential environmental impact, and more. I hope that this tool can give individuals interested in going solar a high level overview of what to expect in their area, and allow vendors to see areas of the U.S. with high potential for solar growth.
 
-_Explore the [Sun Models Platform](https://jnlevine23.carto.com/builder/1baadc68-df69-4360-8cd3-3d04e5b9fefd/embed)._   
-_To Do: Embed platform in blog post for accesibility purposes._
+_**Explore the [Sun Models](https://jnlevine23.carto.com/builder/1baadc68-df69-4360-8cd3-3d04e5b9fefd/embed) platform.**_
 
 _Full presentation can be viewed [here](https://github.com/jnlevine23/Sun-Models/blob/master/presentation.pdf)._
